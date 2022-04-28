@@ -4,5 +4,9 @@ import (
 	"fmt"
 )
 func main(){
-	fmt.Println("hello")
+	// x := 5
+	var slice = []string{"golang","javascript", "bootstrap"}
+	for i, val := range slice {
+		fmt.Printf("The %dst value is : %s\n",i+1,val)
+	}
 }
